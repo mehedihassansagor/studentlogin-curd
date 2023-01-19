@@ -4,7 +4,7 @@
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", true);
 
-const dbUrl = "mongodb+srv://hassan:seakingmawmaw2939@cluster0.gbb5ldr.mongodb.net/studentLogin?retryWrites=true&w=majority"
+const dbUrl = "mongodb+srv://sagor:sagor123@cluster0.gbb5ldr.mongodb.net/student?retryWrites=true&w=majority"
 
 mongoose.connect(dbUrl, 
     {
